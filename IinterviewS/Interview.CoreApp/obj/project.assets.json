@@ -11795,40 +11795,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\v760440\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\gayat\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\YUGDOC\\InterviewWork\\IinterviewS\\Interview.CoreApp\\Interview.CoreApp.csproj",
+      "projectUniqueName": "C:\\Workspace\\GitWork\\IinterviewS\\Interview.CoreApp\\Interview.CoreApp.csproj",
       "projectName": "Interview.CoreApp",
-      "projectPath": "C:\\YUGDOC\\InterviewWork\\IinterviewS\\Interview.CoreApp\\Interview.CoreApp.csproj",
-      "packagesPath": "C:\\Users\\v760440\\.nuget\\packages\\",
-      "outputPath": "C:\\YUGDOC\\InterviewWork\\IinterviewS\\Interview.CoreApp\\obj\\",
+      "projectPath": "C:\\Workspace\\GitWork\\IinterviewS\\Interview.CoreApp\\Interview.CoreApp.csproj",
+      "packagesPath": "C:\\Users\\gayat\\.nuget\\packages\\",
+      "outputPath": "C:\\Workspace\\GitWork\\IinterviewS\\Interview.CoreApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\v760440\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\gayat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://nuget.ual.com/packages/nuget": {},
-        "http://vopcgptbsd01.global.ual.com/foundationsnugetserverdaily/nuget": {},
-        "http://vopcgptbsd01.global.ual.com/foundationsnugetserverrelease/nuget": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://artifactory.ual.com/artifactory/api/nuget/CSLDotNetCoreDaily/": {},
-        "https://artifactory.ual.com/artifactory/api/nuget/CSLDotNetCoreRelease/": {},
-        "https://artifactory.ual.com/artifactory/api/nuget/CSLDotNetFrameworkRelease/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
@@ -11856,16 +11843,23 @@
             "version": "[2.1.2, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

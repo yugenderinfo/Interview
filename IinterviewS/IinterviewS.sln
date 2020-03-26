@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.902
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IinterviewS", "IinterviewS\IinterviewS.csproj", "{858B4EB5-B75D-49AE-818C-E1C1BFB08921}"
 EndProject
@@ -9,7 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview.MVC", "Interview.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview.API", "Interview.API\Interview.API.csproj", "{AF168E56-F440-4097-BAEA-A24198B5993E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview.CoreApp", "Interview.CoreApp\Interview.CoreApp.csproj", "{46E5C744-A147-40AF-A2FE-FCF6BF81E0E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interview.CoreApp", "Interview.CoreApp\Interview.CoreApp.csproj", "{46E5C744-A147-40AF-A2FE-FCF6BF81E0E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularCrud", "AngularCrud\AngularCrud.csproj", "{E455B80E-E3B2-4283-AC7B-36E889169A2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewCoreApi", "InterviewCoreApi\InterviewCoreApi.csproj", "{E729BCFE-F429-4936-81AF-4FA5967D0B54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApiCore", "TestApiCore\TestApiCore.csproj", "{0417EC3E-86CA-4468-ACB0-220773EB64F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{46E5C744-A147-40AF-A2FE-FCF6BF81E0E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46E5C744-A147-40AF-A2FE-FCF6BF81E0E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46E5C744-A147-40AF-A2FE-FCF6BF81E0E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E455B80E-E3B2-4283-AC7B-36E889169A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E455B80E-E3B2-4283-AC7B-36E889169A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E455B80E-E3B2-4283-AC7B-36E889169A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E455B80E-E3B2-4283-AC7B-36E889169A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E729BCFE-F429-4936-81AF-4FA5967D0B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E729BCFE-F429-4936-81AF-4FA5967D0B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E729BCFE-F429-4936-81AF-4FA5967D0B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E729BCFE-F429-4936-81AF-4FA5967D0B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0417EC3E-86CA-4468-ACB0-220773EB64F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0417EC3E-86CA-4468-ACB0-220773EB64F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0417EC3E-86CA-4468-ACB0-220773EB64F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0417EC3E-86CA-4468-ACB0-220773EB64F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
