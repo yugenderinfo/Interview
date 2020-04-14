@@ -26,5 +26,11 @@ namespace Interview.MVC.Controllers
 
             return View();
         }
+        public ActionResult Index2()
+        {
+            ViewBag.Message = "Welcome to ASP.NET MVC!";
+            int u = Convert.ToInt32(""); // Error line  
+            return View();
+        }
     }
 }
