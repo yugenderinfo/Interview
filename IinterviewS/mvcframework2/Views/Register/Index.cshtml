@@ -1,0 +1,97 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<h2>Index</h2>
+<div id="target">
+    Click here
+</div>
+<div id=divCategorylist></div>
+<style type="text/css">
+    .warpper {
+
+        background-color: white;
+    }
+  
+
+    /* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+    .tooltip .tooltipclass {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+        /* Position the tooltip text - see examples below! */
+        position: absolute;
+        z-index: 1;
+    }
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+</style>
+<script lang="en" type="text/javascript">
+
+
+    $("#target").click(function () {
+        alert('test');
+        //debugger;
+        getDetails();
+    });
+
+    $(function() {
+    $( ".tooltipclass" ).tooltip({
+       content: function() { return $(this).attr('data-id'); },
+    });
+});
+
+    function getDetails() {
+        let url = "/Register/getallcategory"
+        $.get(url, null, function (data) {
+            console.log(data);
+            buildGetDetails(JSON.parse(data));
+        });
+    }
+    function buildGetDetails(data) {
+    
+        let wrapperDiv = $('#divCategorylist');
+        wrapperDiv.empty();
+        wrapperDiv.attr('class', 'warpper')
+
+        categorylist = data;
+       
+        for (let i = 0; i < data.length; i++) {
+            console.log("div item:" + data[i].divName);
+            let wrpperCatergoryDiv = $('<div/>');
+            wrpperCatergoryDiv.attr('id', 'div' + data[i].name);
+            wrpperCatergoryDiv.attr('class', 'wraper');
+            wrpperCatergoryDiv.attr('style', 'width:500px');
+            wrpperCatergoryDiv.appendTo(wrapperDiv);
+
+            let caregoryDiv = $('<div>');
+            caregoryDiv.attr('id', 'divDisplay' + data[i].name);
+            caregoryDiv.text(data[i].code);
+            caregoryDiv.appendTo(wrpperCatergoryDiv);
+            caregoryDiv.attr('title', data[i].tooltiptext);
+            //caregoryDiv.addClass('tooltip tooltipclass');
+            caregoryDiv.attr('class', 'tooltipclass');
+            caregoryDiv.attr('style', 'margin-right:25px;width:200px;');
+
+
+
+        }
+
+    }
+</script>

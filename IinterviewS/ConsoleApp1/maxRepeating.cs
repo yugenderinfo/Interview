@@ -12,7 +12,7 @@ namespace ConsoleApp1
             int count = 0;
             char res = str[0];
 
-            // Find the maximum repeating  
+            // Find the maximum repeating   yuuuuuuugender
             // character starting from str[i] 
             for (int i = 0; i < len; i++)
             {
