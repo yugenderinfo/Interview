@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿
+using Microsoft.Extensions.Configuration;
 using System;
 using System.IO;
 using ConsoleApp1.InterfaceDAL;
@@ -85,9 +86,20 @@ namespace ConsoleApp1
             //Book<int> stringBook2 = new Book<int>();
             //stringBook2.add(12321);
 
-            Book<DateTime> stringBook3 = new Book<DateTime>();
-             stringBook3.add(System.DateTime.Now);
-           
+            //Book<DateTime> stringBook3 = new Book<DateTime>();
+            // stringBook3.add(System.DateTime.Now);
+
+            string.Format("Test {0},{1}", 1, 2);
+            Console.WriteLine(string.Format("yug {0} {1} {2}", 1, 2, 3));
+            
+            var url = string.Format("{0}", "www.google.com");
+            //url ?? "yugener";
+            Console.WriteLine(string.Format("yug {0}/{1}/{2}/{3}", url, 1, 2, 3));
+            // Number formatting  
+            int num = 302;
+            string numStr = String.Format("Number {0, 0:D5}", num);
+            Console.WriteLine(numStr);
+            Console.ReadLine();
 
         }
 

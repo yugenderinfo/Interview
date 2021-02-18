@@ -26,6 +26,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvcframework2", "mvcframework2\mvcframework2.csproj", "{0928CFB7-0F81-4F9E-9785-248EA7397D05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAsp.NETProject", "TestAsp.NETProject\TestAsp.NETProject.csproj", "{CF1D865A-B022-45E3-877F-3BE89FAF84CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +70,10 @@ Global
 		{0928CFB7-0F81-4F9E-9785-248EA7397D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0928CFB7-0F81-4F9E-9785-248EA7397D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0928CFB7-0F81-4F9E-9785-248EA7397D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF1D865A-B022-45E3-877F-3BE89FAF84CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1D865A-B022-45E3-877F-3BE89FAF84CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1D865A-B022-45E3-877F-3BE89FAF84CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1D865A-B022-45E3-877F-3BE89FAF84CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

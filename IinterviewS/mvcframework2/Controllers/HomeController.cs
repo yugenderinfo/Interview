@@ -10,6 +10,15 @@ namespace mvcframework2.Controllers
     {
         public ActionResult Index()
         {
+
+            TestUtilitys s1 = TestUtilitys.Instance;
+            
+            if (null == TestUtilitys.Instance)
+            {
+                // execute in every request
+
+                TestUtilitys.Instance = "test";
+            }
             return View();
         }
 
